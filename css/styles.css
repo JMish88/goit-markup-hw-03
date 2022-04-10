@@ -13,7 +13,18 @@ body {background-color:var(--secondary-text-color);
         text-decoration: none;}
 
 
+.container {width: 1200px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                outline: 2px solid tomato;
+        }
 
+        h1,
+        h2,
+        h3 {margin-top: 0px;
+        margin-bottom: 0px;}
 
 
 
@@ -28,6 +39,7 @@ body {background-color:var(--secondary-text-color);
 .page-header .web {color: var(--accent-color);}
 .page-header .studio { color: var(--primary-text-color);}
 
+
 .site-nav-link {color: var(--primary-text-color);
                 font-weight: 500;
                 font-size: 14px;
@@ -36,6 +48,9 @@ body {background-color:var(--secondary-text-color);
 .site-nav-link.current,
 .site-nav-link:focus, 
 .site-nav-link:hover { color: var(--accent-color) ;}
+
+.auth-nav {margin-top: 0px;
+                margin-bottom: 0px;}
 
 .auth-nav-link {color: #757575;
                 font-weight: 500;
@@ -55,7 +70,10 @@ body {background-color:var(--secondary-text-color);
                 font-size: 44px;
                 line-height: 1.36;
                 text-transform: uppercase;
-                text-align: center;}
+                text-align: center;
+                margin-bottom: 30px;
+               padding-top: 200px;
+                }
 
 .hero-button {  background-color: var(--accent-color);
                 color: var(--secondary-text-color);
@@ -64,20 +82,32 @@ body {background-color:var(--secondary-text-color);
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 1.88;
-                text-align: center;}
+                text-align: center;
+                border-radius: 4px;
+                padding: 10px,32px;
+        margin-bottom: 200px;
+        
+}
            
             /*benefits*/
+
 
  .benefit-title {color: var(--primary-text-color);
                 font-weight: 700;
                 font-size: 14px;
                 line-height: 1.14;
-                text-transform: uppercase;}    
+                text-transform: uppercase;
+        padding-top: 94px;
+margin-bottom: 10px;}    
 
  .benefit-text {color: #757575;
                 font-size: 14px;
-                line-height: 1.71;}   
+                line-height: 1.71;
+        margin-top: 0;
+margin-bottom: 0;}   
 
+.benefit-list {margin-top: 0;
+margin-bottom: 0;}
     
     
             /*what we do*/
