@@ -2,7 +2,9 @@
         --accent-color: #2196F3;
         --secondary-text-color: #ffffff;}
 
-body {background-color:var(--secondary-text-color);
+body {  width: 1600px;
+        
+         background-color:var(--secondary-text-color);
          color: var(--primary-text-color);
          font-family: Roboto, sans-serif; 
          font-style: normal;
@@ -14,15 +16,15 @@ body {background-color:var(--secondary-text-color);
         text-decoration: none;}
 
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        ul {margin: 0px;
-                padding: 0px;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul      {margin: 0px;
+         padding: 0px;}
 
 
 
@@ -33,36 +35,31 @@ body {background-color:var(--secondary-text-color);
                 margin-right: auto;
                 outline: 2px solid tomato;  }
 
-.section { width: 1600px;
-         padding: 94px 0px;}
+.section { padding: 94px 0px;}
 
 
                 /* header*/
 
 .page-header {background-color: var(--secondary-text-color);
-                border: 1px solid #ECECEC}
+                border: 1px solid #ECECEC;   }
+
+.page-header .container {display: flex;
+                        align-items: center;}
 
 .page-header .logo { font-family:Raleway ;
                         font-weight: 700;
                         font-size: 26px;
                         line-height: 1.2;
                         letter-spacing: 0.03em;
-                        margin-right: 93px; 
-                        }
+                        margin-right: 93px;     }
 
 .page-header .web {color: var(--accent-color);}
+
 .page-header .studio { color: var(--primary-text-color);}
 
-.container.main-header {display: flex;
-                align-items: center;
-                
-                }
-
-.site-nav {display: flex;
-                }
+.site-nav {display: flex;  }
 
 .site-nav .item + .item{margin-left: 50px;}
-
 
 .site-nav-link {color: var(--primary-text-color);
                 font-weight: 500;
@@ -96,10 +93,9 @@ body {background-color:var(--secondary-text-color);
 
 .hero-section {background-color:#2F303A ;
                 text-align: center;
-                
-}
-
-
+                padding: 200px 0;  
+                display: block;
+                align-items: center; }
 
 .hero-title {color: var(--secondary-text-color);
         
@@ -107,27 +103,30 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-transform: uppercase;
-text-align: center;
-margin-bottom: 30px;
-padding-top: 200px;
-width: 696px;
-                      }
+letter-spacing: 0.06em;
 
-.hero-button {  display: inline-block;
-                margin-bottom: 200px;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 30px;
+max-width: 696px;    }
+
+.hero-button { display: block;
                 padding: 10px 32px;
+                margin: 0 auto;
                 border: 1px;
-        
+                text-align: center;
+                min-width: 200px;
+                border-radius: 4px;
+             
+
                 background-color: var(--accent-color);
                 color: var(--secondary-text-color);
                 font-family: Roboto;
                 font-style: normal;    
                 font-weight: 700;
-                font-size: 16px;
-                text-align: center;
-                width: 200px;
-                border-radius: 4px;
-                }
+                font-size: 16px;  
+                letter-spacing: 0.06em;
+                line-height: 1.88;  }
         
 
            
@@ -139,14 +138,12 @@ width: 696px;
                 font-size: 14px;
                 line-height: 1.14;
                 text-transform: uppercase;
-                padding-top: 94px;
+
                 margin-bottom: 10px;}    
 
  .benefit-text {color: #757575;
                 font-size: 14px;
-                line-height: 1.71;
-                margin-top: 0;
-                margin-bottom: 0;
+                line-height: 1.71;                
                 width: 270px;}   
 
 .benefit-list {margin-top: 0;
@@ -166,7 +163,7 @@ width: 696px;
                         line-height: 1.17;
                         text-align: center;
                         margin-bottom: 50px;
-                        padding-top: 94px;}
+                        }
 
 .work-list {margin-bottom: 0px;
                 margin-top: 0px;
